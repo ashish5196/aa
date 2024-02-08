@@ -1,0 +1,16 @@
+.main_container{
+    border:2px solid blue;
+    max-height: fit-content;
+    height: 700px;
+}
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+}
+.left_div{
+    width:50px;
+}
+.right_div{
+    width:(100%-50px);
+}
